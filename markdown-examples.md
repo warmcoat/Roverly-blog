@@ -28,7 +28,6 @@ footer: {
 },
 ````
 
-![alt text](image-1.png)
 
 **Output**
 
