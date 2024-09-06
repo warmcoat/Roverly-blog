@@ -21,7 +21,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Web前端' , items:[
         {text: 'javaScript', link: '/webFront/web-javascript'},
-        {text: 'html+css', link: '/webFront/web-htmlcss'},
+        {text: 'html', link: '/webFront/web-html'},
+        {text: 'css', link: '/webFront/web-css'},
         {text: 'vue', link: '/webFront/web-vue'},
         {text: 'web面试题', link: '/webFront/web-mianshiti'}
       ]},
