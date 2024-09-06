@@ -13,7 +13,7 @@ export default defineConfig({
     aside: "left", // 设置右侧侧边栏在左侧显示
     outlineTitle:'目录',
     outline: "deep",
-    logo: '/咖啡.png',
+    logo: '/cafei.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

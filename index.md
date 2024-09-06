@@ -7,7 +7,7 @@ hero:
   text: "构建知识库"
   tagline: 好记性不如烂笔头
   image:
-    src: /女孩工作.png
+    src: /grilwork.png
     alt: 背景图片
   actions:
     - theme: brand
