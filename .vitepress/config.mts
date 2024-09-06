@@ -5,6 +5,8 @@ import { set_sidebar } from './utils/auto_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/Roverly-blog/",
+  head: [["link", {rel: "icon", href: "/Roverly-blog/cafei.png"}]],
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
