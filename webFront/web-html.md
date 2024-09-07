@@ -491,7 +491,7 @@ table 包含 tr , tr 包含 td。
             <option>兰州大学</option> 
         </select> <br>
 ```
-![alt text](image-9.png)
+![alt text](../public/img/image-9.png)
 
 ##### textarea 标签
 ```
