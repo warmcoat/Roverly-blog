@@ -35,7 +35,7 @@ HTML代码是由标签组成的
 </body>
 </html>
 ```
-![alt text](image.png)
+![alt text](../public/img/image.png)
 
 -  html标签是整个html文档的最顶层标签/根标签
 -  head标签则是写这个html文档的属性的标签
@@ -129,7 +129,7 @@ head标签和body标签就是兄弟关系。
 
 或者新建文件之后，在文件顶部输入 html:5 之后，按回车，也能生成html代码框架。
 
-![alt text](image-1.png)
+![alt text](../public/img/image-1.png)
 -  `<!DOCTYPE html>` 称为 DTD (文档类型定义), 描述当前的文件是一个 HTML5 的文件。
 -  `<html lang="en">` 其中 lang 属性表示当前页面是一个 "英语页面". 这里暂时不用管. (有些浏览器会根据此处的声明提示是否进行自动翻译)。
 -  `<meta charset="UTF-8">` 描述页面的字符编码方式. 没有这一行可能会导致中文乱码。
@@ -178,7 +178,7 @@ hr 用来在一篇文章中分隔两个不同的主题，浏览器会将其渲�
 </body>
 </html>
 ```
-![alt text](image-2.png)
+![alt text](../public/img/image-2.png)
 
 #### 段落标签 `<p> </p>`
 
@@ -193,7 +193,7 @@ hr 用来在一篇文章中分隔两个不同的主题，浏览器会将其渲�
 我们可以在需要产生段落的地方添加`<p></p>` 是内容产生段落。
 
 产生段落之后，上面的段落和下面的段落之后有很大的空隙。
-![alt text](image-3.png)
+![alt text](../public/img/image-3.png)
 #### 换行标签 `<br>`
 br是break的缩写，表示换行。
 
@@ -221,7 +221,7 @@ br是break的缩写，表示换行。
  
 </body>
 ```
-![alt text](image-4.png)
+![alt text](../public/img/image-4.png)
 #### 图片标签 img
 img标签必须带有sec的属性，表示这个图片的路径。
 
@@ -349,7 +349,7 @@ table 包含 tr , tr 包含 td。
     </table>
 </body>
 ```
-![alt text](image-5.png)
+![alt text](../public/img/image-5.png)
 合并单元格
 
 跨行合并
@@ -381,7 +381,7 @@ table 包含 tr , tr 包含 td。
         </tbody>
     </table>
 ```
-![alt text](image-6.png)
+![alt text](../public/img/image-6.png)
 
 跨列合并
 ```
@@ -408,7 +408,7 @@ table 包含 tr , tr 包含 td。
         </tbody>
     </table>
 ```
-![alt text](image-7.png)
+![alt text](../public/img/image-7.png)
 
 #### 列表标签
 无序列表  ul li 
@@ -479,7 +479,7 @@ table 包含 tr , tr 包含 td。
         提交：<input type="submit">  <!-- 提交按钮-->
     </form>
 ```
-![alt text](image-8.png)
+![alt text](../public/img/image-8.png)
 
 ##### select标签
 
@@ -497,7 +497,7 @@ table 包含 tr , tr 包含 td。
 ```
  备注：<textarea cols="50" rows="5"></textarea><br>  
 ```
-![alt text](image-10.png)
+![alt text](../public/img/image-10.png)
 
 #### 无语义标签  div  span
 就是两个盒子. 用于网页布局
@@ -646,7 +646,7 @@ nav 标签用于放置页面或文档的导航信息。
 一般来说，nav 往往放置在 header 里面，不适合放入 footer。另外，一个页面可以有多个 nav，比如一个用于站点导航，另一个用于文章导航。
 ### HTML特殊字符对照表
 html中某些字符是预留字符, 不能直接使用, 因此需使用代码表示
-![alt text](image-11.png)
+![alt text](../public/img/image-11.png)
 
 
 ### 1、什么是 HTML 语义化？
@@ -700,5 +700,4 @@ HTML中的锚点是指通过`<a>`标签创建的链接，可以在页面内部�
 href用于创建超链接，指向其他网页
 src用于引入外部资源，如图像、音频、视频等。
 
-## CSS 系列
 
